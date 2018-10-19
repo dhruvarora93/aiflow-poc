@@ -1,0 +1,17 @@
+[2018-10-19 12:53:11,277] {models.py:167} INFO - Filling up the DagBag from /Users/dhruvarora/airflow/dags/my_first_dag.py
+[2018-10-19 12:53:11,557] {base_task_runner.py:112} INFO - Running: ['bash', '-c', u'airflow run my_first_dag print_the_context.0 2018-10-19T12:53:10.363787 --job_id 4 --raw -sd DAGS_FOLDER/my_first_dag.py']
+[2018-10-19 12:53:11,862] {base_task_runner.py:95} INFO - Subtask: [2018-10-19 12:53:11,861] {__init__.py:57} INFO - Using executor SequentialExecutor
+[2018-10-19 12:53:12,131] {base_task_runner.py:95} INFO - Subtask: [2018-10-19 12:53:12,131] {models.py:167} INFO - Filling up the DagBag from /Users/dhruvarora/airflow/dags/my_first_dag.py
+[2018-10-19 12:53:12,357] {base_task_runner.py:95} INFO - Subtask: /Users/dhruvarora/airflow_virtualenv/lib/python2.7/site-packages/airflow/utils/helpers.py:406: DeprecationWarning: Importing PythonOperator directly from <module 'airflow.operators' from '/Users/dhruvarora/airflow_virtualenv/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/Users/dhruvarora/airflow_virtualenv/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+[2018-10-19 12:53:12,358] {base_task_runner.py:95} INFO - Subtask:   DeprecationWarning)
+[2018-10-19 12:53:12,388] {base_task_runner.py:95} INFO - Subtask: [2018-10-19 12:53:12,387] {models.py:1126} INFO - Dependencies all met for <TaskInstance: my_first_dag.print_the_context.0 2018-10-19 12:53:10.363787 [queued]>
+[2018-10-19 12:53:12,389] {base_task_runner.py:95} INFO - Subtask: [2018-10-19 12:53:12,389] {models.py:1126} INFO - Dependencies all met for <TaskInstance: my_first_dag.print_the_context.0 2018-10-19 12:53:10.363787 [queued]>
+[2018-10-19 12:53:12,389] {base_task_runner.py:95} INFO - Subtask: [2018-10-19 12:53:12,389] {models.py:1318} INFO - 
+[2018-10-19 12:53:12,389] {base_task_runner.py:95} INFO - Subtask: --------------------------------------------------------------------------------
+[2018-10-19 12:53:12,389] {base_task_runner.py:95} INFO - Subtask: Starting attempt 1 of 1
+[2018-10-19 12:53:12,390] {base_task_runner.py:95} INFO - Subtask: --------------------------------------------------------------------------------
+[2018-10-19 12:53:12,390] {base_task_runner.py:95} INFO - Subtask: 
+[2018-10-19 12:53:12,397] {base_task_runner.py:95} INFO - Subtask: [2018-10-19 12:53:12,397] {models.py:1342} INFO - Executing <Task(PythonOperator): print_the_context.0> on 2018-10-19 12:53:10.363787
+[2018-10-19 12:53:12,403] {base_task_runner.py:95} INFO - Subtask: 0
+[2018-10-19 12:53:12,404] {base_task_runner.py:95} INFO - Subtask: [2018-10-19 12:53:12,403] {python_operator.py:81} INFO - Done. Returned value was: print_context has sucess 0
+[2018-10-19 12:53:16,565] {jobs.py:2083} INFO - Task exited with return code 0
